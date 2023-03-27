@@ -28,4 +28,31 @@
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
-  // TODO: Add code to display the current date in the header of the page.
+  // TODO: Add code to display the current date in the header of the page.*/
+// Get all save buttons
+const saveButtons = document.querySelectorAll('.save-button');
+
+// Loop through save buttons and add event listeners
+saveButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Get the hour from the button's data attribute
+    const hour = button.dataset.hour;
+    // Get the task input for the corresponding hour
+    const taskInput = document.getElementById(`task-${hour}`);
+    // Get the task value from the input
+    const task = taskInput.value;
+    // Save the task to local storage
+    localStorage.setItem(`task-${hour}`, task);
+    // Show a message to the user that the task was saved
+    alert(`Task saved for ${hour}: ${task}`);
+  });
+});
+
+// Load saved tasks from local storage
+for (let i = 9; i <= 17; i++) {
+  const taskInput = document.getElementById(`task-${i}`);
+  const savedTask = localStorage.getItem(`task-${i}`);
+  if (savedTask) {
+    taskInput.value = savedTask;
+  }
+}
