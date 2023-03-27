@@ -37,73 +37,73 @@ var ConfirmEl = document.getElementById('Confirm');
 
 save1.addEventListener('click', function () {
   var Task9E1 = document.getElementById('Task9');
-  var Task9E1Text = Task9El.value;
-  localStorage.setItem('H9', Task9E1);
+  var Task9E1Text = Task9E1.value;
+  localStorage.setItem('H9', Task9E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
 save2.addEventListener('click', function () {
   var Task10E1 = document.getElementById('Task10');
   var Task10E1Text = Task10E1.value;
-  localStorage.setItem('H10', Task10E1);
+  localStorage.setItem('H10', Task10E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
 save3.addEventListener('click', function () {
   var Task11E1 = document.getElementById('Task11');
   var Task11E1Text = Task11El.value;
-  localStorage.setItem('H11', Task11E1);
+  localStorage.setItem('H11', Task11E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
 save4.addEventListener('click', function () {
   var Task12E1 = document.getElementById('Task12');
   var Task12E1Text = Task12El.value;
-  localStorage.setItem('H12', Task12E1);
+  localStorage.setItem('H12', Task12E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
 save5.addEventListener('click', function () {
   var Task1E1 = document.getElementById('Task1');
   var Task1E1Text = Task1El.value;
-  localStorage.setItem('H1', Task1E1);
+  localStorage.setItem('H1', Task1E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
 save6.addEventListener('click', function () {
   var Task2E1 = document.getElementById('Task2');
   var Task2E1Text = Task2El.value;
-  localStorage.setItem('H2', Task2E1);
+  localStorage.setItem('H2', Task2E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
 save7.addEventListener('click', function () {
   var Task3E1 = document.getElementById('Task3');
   var Task3E1Text = Task3El.value;
-  localStorage.setItem('H3', fTask3E1);
+  localStorage.setItem('H3', fTask3E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
 save8.addEventListener('click', function () {
   var Task4E1 = document.getElementById('Task4');
   var Task4E1Text = Task4El.value;
-  localStorage.setItem('H4', Task4E1);
+  localStorage.setItem('H4', Task4E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
 save9.addEventListener('click', function () {
   var Task5E1 = document.getElementById('Task5');
   var Task5E1Text = Task5El.value;
-  localStorage.setItem('H5', Task5E1);
+  localStorage.setItem('H5', Task5E1Text);
   ConfirmEl.textContent =' The task was saved ';
 });
 
-var Task9E1 = document.getElementById('Task9').val() = Task9E1;
-var Task10E1 = document.getElementById('Task10').val() = Task10E1;
-var Task11E1 = document.getElementById('Task11').val() = Task11E1;
-var Task12E1 = document.getElementById('Task12').val() = Task12E1;
-var Task1E1 = document.getElementById('Task1').val() = Task1E1;
-var Task2E1 = document.getElementById('Task2').val() = Task2E1;
-var Task3E1 = document.getElementById('Task3').val() = Task3E1;
-var Task4E1 = document.getElementById('Task4').val() = Task4E1;
-var Task5E1 = document.getElementById('Task5').val() = Task5E1;
+var Task9E1 = document.getElementById('Task9').value = Task9E1Text;
+var Task10E1 = document.getElementById('Task10').value = Task10E1Text;
+var Task11E1 = document.getElementById('Task11').value = Task11E1Text;
+var Task12E1 = document.getElementById('Task12').value = Task12E1Text;
+var Task1E1 = document.getElementById('Task1').value = Task1E1Text;
+var Task2E1 = document.getElementById('Task2').value = Task2E1Text;
+var Task3E1 = document.getElementById('Task3').value = Task3E1Text;
+var Task4E1 = document.getElementById('Task4').value = Task4E1Text;
+var Task5E1 = document.getElementById('Task5').value = Task5E1Text;
