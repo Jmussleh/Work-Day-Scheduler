@@ -1,58 +1,14 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+//Setting all of my variables
+//Time variables
+var TodayE1 = document.getElementsById('Today');
+TodayE1.textContent = dayjs().format('dddd, MMMM DD');
 
-/*$(function Save() {
-  var Savebtn = $('#fa-save');
-  var userinput = document.getElementsById("description");
-  localStorage.setItem("description", input.val(''));
-  var storedtask = localStorage.getItem("description");
-  console.log(storedtask);
-  Savebtn.on('click', Save)
-});
- 
-  // TODO: Add a listener for click events on the save button. This code should
-  // use the id in the containing time-block as a key to save the user input in
-  // local storage. HINT: What does `this` reference in the click listener
-  // function? How can DOM traversal be used to get the "hour-x" id of the
-  // time-block containing the button that was clicked? How might the id be
-  // useful when saving the description in local storage?
-  //
-  // TODO: Add code to apply the past, present, or future class to each time
-  // block by comparing the id to the current hour. HINTS: How can the id
-  // attribute of each time-block be used to conditionally add or remove the
-  // past, present, and future classes? How can Day.js be used to get the
-  // current hour in 24-hour time?
-  //
-  // TODO: Add code to get any user input that was saved in localStorage and set
-  // the values of the corresponding textarea elements. HINT: How can the id
-  // attribute of each time-block be used to do this?
-  //
-  // TODO: Add code to display the current date in the header of the page.*/
-// Get all save buttons
-const saveButtons = document.querySelectorAll('.save-button');
-
-// Loop through save buttons and add event listeners
-saveButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    // Get the hour from the button's data attribute
-    const hour = button.dataset.hour;
-    // Get the task input for the corresponding hour
-    const taskInput = document.getElementById(`task-${hour}`);
-    // Get the task value from the input
-    const task = taskInput.value;
-    // Save the task to local storage
-    localStorage.setItem(`task-${hour}`, task);
-    // Show a message to the user that the task was saved
-    alert(`Task saved for ${hour}: ${task}`);
-  });
-});
-
-// Load saved tasks from local storage
-for (let i = 9; i <= 17; i++) {
-  const taskInput = document.getElementById(`task-${i}`);
-  const savedTask = localStorage.getItem(`task-${i}`);
-  if (savedTask) {
-    taskInput.value = savedTask;
-  }
-}
+var Task9E1 = localStorage.getItem('H9');
+var Task10E1 = localStorage.getItem('H10');
+var Task11E1 = localStorage.getItem('H11');
+var Task12E1 = localStorage.getItem('H12');
+var Task1E1 = localStorage.getItem('H1');
+var Task2E1 = localStorage.getItem('H2');
+var Task3E1 = localStorage.getItem('H3');
+var Task4E1 = localStorage.getItem('H4');
+var Task5E1 = localStorage.getItem('H5');
