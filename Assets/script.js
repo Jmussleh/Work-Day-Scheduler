@@ -23,16 +23,6 @@ var Hour3 = document.getElementById('t3')
 var Hour4 = document.getElementById('t4')
 var Hour5 = document.getElementById('t5')
 
-Hour9.textContent = dayjs().hour(9).format('hh A')
-Hour10.textContent = dayjs().hour(10).format('hh A')
-Hour11.textContent = dayjs().hour(11).format('hh A')
-Hour12.textContent = dayjs().hour(12).format('hh A')
-Hour1.textContent = dayjs().hour(13).format('hh A')
-Hour2.textContent = dayjs().hour(14).format('hh A')
-Hour3.textContent = dayjs().hour(15).format('hh A')
-Hour4.textContent = dayjs().hour(16).format('hh A')
-Hour5.textContent = dayjs().hour(17).format('hh A')
-
 var save1 = document.getElementById('save1');
 var save2 = document.getElementById('save2');
 var save3 = document.getElementById('save3');
@@ -108,12 +98,12 @@ save9.addEventListener('click', function () {
   ConfirmEl.textContent =' The task was saved ';
 });
 
-var Task9E1 = document.getElementById('Task9').value = Task9E1;
-var Task10E1 = document.getElementById('Task10').value = Task10E1;
-var Task11E1 = document.getElementById('Task11').value = Task11E1;
-var Task12E1 = document.getElementById('Task12').value = Task12E1;
-var Task1E1 = document.getElementById('Task1').value = Task1E1;
-var Task2E1 = document.getElementById('Task2').value = Task2E1;
-var Task3E1 = document.getElementById('Task3').value = Task3E1;
-var Task4E1 = document.getElementById('Task4').value = Task4E1;
-var Task5E1 = document.getElementById('Task5').value = Task5E1;
+var Task9E1 = document.getElementById('Task9').val() = Task9E1;
+var Task10E1 = document.getElementById('Task10').val() = Task10E1;
+var Task11E1 = document.getElementById('Task11').val() = Task11E1;
+var Task12E1 = document.getElementById('Task12').val() = Task12E1;
+var Task1E1 = document.getElementById('Task1').val() = Task1E1;
+var Task2E1 = document.getElementById('Task2').val() = Task2E1;
+var Task3E1 = document.getElementById('Task3').val() = Task3E1;
+var Task4E1 = document.getElementById('Task4').val() = Task4E1;
+var Task5E1 = document.getElementById('Task5').val() = Task5E1;
