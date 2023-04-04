@@ -1,8 +1,3 @@
-//Setting all of my variables
-//Time variables
-var TodayE1 = document.getElementById('Today');
-TodayE1.textContent = dayjs().format('dddd, MMMM DD');
-
 var Task9E1Text = localStorage.getItem('H9');
 var Task10E1Text = localStorage.getItem('H10');
 var Task11E1Text = localStorage.getItem('H11');
