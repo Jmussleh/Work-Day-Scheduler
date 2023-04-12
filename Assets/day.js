@@ -15,7 +15,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(9))) {
         document.getElementById('Task9').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(9))) {
-        document.getElementById('Task9').style.backgroundColor = "yellow";
+        document.getElementById('Task9').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task9').style.backgroundColor = "green";
     }
@@ -23,7 +23,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(10))) {
         document.getElementById('Task10').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(10))) {
-        document.getElementById('Task10').style.backgroundColor = "yellow";
+        document.getElementById('Task10').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task10').style.backgroundColor = "green";
     }
@@ -31,7 +31,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(11))) {
         document.getElementById('Task11').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(10))) {
-        document.getElementById('Task11').style.backgroundColor = "yellow";
+        document.getElementById('Task11').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task11').style.backgroundColor = "green";
     }
@@ -39,7 +39,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(12))) {
         document.getElementById('Task12').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(12))) {
-        document.getElementById('Task12').style.backgroundColor = "yellow";
+        document.getElementById('Task12').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task12').style.backgroundColor = "green";
     }
@@ -47,7 +47,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(13))) {
         document.getElementById('Task1').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(13))) {
-        document.getElementById('Task1').style.backgroundColor = "yellow";
+        document.getElementById('Task1').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task1').style.backgroundColor = "green";
     }
@@ -55,7 +55,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(14))) {
         document.getElementById('Task2').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(14))) {
-        document.getElementById('Task2').style.backgroundColor = "yellow";
+        document.getElementById('Task2').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task2').style.backgroundColor = "green";
     }
@@ -63,7 +63,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(15))) {
         document.getElementById('Task3').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(15))) {
-        document.getElementById('Task3').style.backgroundColor = "yellow";
+        document.getElementById('Task3').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task3').style.backgroundColor = "green";
     }
@@ -71,7 +71,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(16))) {
         document.getElementById('Task4').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(16))) {
-        document.getElementById('Task4').style.backgroundColor = "yellow";
+        document.getElementById('Task4').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task4').style.backgroundColor = "green";
     }
@@ -79,7 +79,7 @@ function colorTime() {
     if (dayjs().isSame(dayjs().hour(17))) {
         document.getElementById('Task5').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(17))) {
-        document.getElementById('Task5').style.backgroundColor = "yellow";
+        document.getElementById('Task5').style.backgroundColor = "grey";
     } else {
         document.getElementById('Task5').style.backgroundColor = "green";
     }
